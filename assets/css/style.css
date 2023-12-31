@@ -1,5 +1,7 @@
 :root {
     --primary-color: #EA580C;
+    --secondary-color: #3F3F46;
+    --secondary-text-color: #8C94A3;
 }
 
 /* Global */
@@ -44,6 +46,32 @@ img{
 .section-header .section-header-after{
     background: red;
 }
-/* .course-img-box{
 
-} */
+/* Footer */
+.footer-social-links i{
+    background: var(--secondary-color);
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+.footer-social-links i:hover{
+    scale: 0.9;
+}
+.footer-social-links i.highlight{
+    background: var(--primary-color);
+    padding: 1rem;
+}
+
+footer ul {
+    margin-top: 2rem;
+    display: grid;
+    gap: 1rem;   
+    color: var(--secondary-text-color);
+}
+
+footer ul a {
+    color: var(--secondary-text-color);
+}
+
+footer ul a:hover {
+    color: var(--primary-color);
+}

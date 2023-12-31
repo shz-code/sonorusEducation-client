@@ -8,6 +8,12 @@ h1 {
 h2 {
     @apply text-2xl sm:text-3xl font-semibold mb-2
 }
+h4 {
+    @apply text-lg font-semibold mb-2 uppercase
+}
 .btn-primary {
-    @apply bg-orange-500 text-white px-4 py-2 mt-4 hover:bg-orange-600
+    @apply bg-orange-500 text-white px-4 py-2 mt-4 hover:bg-orange-600 font-semibold
+}
+.btn-secondary {
+    @apply bg-zinc-700 text-white px-4 py-2 mt-4 hover:bg-zinc-900 font-semibold
 }
