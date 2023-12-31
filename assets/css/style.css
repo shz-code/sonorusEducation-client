@@ -24,3 +24,26 @@ img{
 .hero-img{
     height: 400px;
 }
+
+/* Best Selling Courses */
+.section-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 0 2rem 0;
+}
+.section-header span{
+    width: 30px;
+    height: 2px;
+}
+.section-header .section-header-before{
+    background: aqua;
+}
+.section-header .section-header-after{
+    background: red;
+}
+/* .course-img-box{
+
+} */
